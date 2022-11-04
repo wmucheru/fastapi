@@ -4,7 +4,7 @@ app = FastAPI(title="Test App")
 v1 = FastAPI()
 
 
-@app.get("/")
+# @app.get("/")
 @v1.get("/")
 async def root():
     return {
